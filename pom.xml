@@ -83,7 +83,14 @@
       <version>2.2.0</version>
     </dependency>
 
-
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.5.1</version>
+      <source>1.8</source>
+      <target>1.8</target>
+    </dependency>
 
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -139,15 +146,8 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <configuration>
-          <archive>
-            <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
-          </archive>
-        </configuration>
-      </plugin>
+
+
     </plugins>
   </build>
   <profiles>
