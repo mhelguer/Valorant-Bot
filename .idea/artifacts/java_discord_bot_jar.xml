@@ -1,0 +1,87 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java-discord-bot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_discord_bot_jar</output-path>
+    <root id="archive" name="java-discord-bot.jar">
+      <element id="module-output" name="java-discord-bot" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.31/kotlin-stdlib-jdk7-1.5.31.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.31/kotlin-stdlib-jdk8-1.5.31.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/discord4j-rest/3.2.4/discord4j-rest-3.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/ben-manes/caffeine/caffeine/2.8.8/caffeine-2.8.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/neovisionaries/nv-websocket-client/2.14/nv-websocket-client-2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/discord4j-common/3.2.4/discord4j-common-3.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.92.Final/netty-codec-dns-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-http/1.1.7/reactor-netty-http-1.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/simple-fsm/1.0.1/simple-fsm-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/top/jfunc/json/json-gson/1.8.3/json-gson-1.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/austinv11/servicer/Servicer/1.0.3/Servicer-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.92.Final/netty-codec-socks-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/discord-json/1.6.14/discord-json-1.6.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.6/reactor-core-3.5.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/stores-api/3.2.2/stores-api-3.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.7/jackson-datatype-jdk8-2.12.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/stores-jdk/3.2.2/stores-jdk-3.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/discord4j-gateway/3.2.4/discord4j-gateway-3.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/top/jfunc/json/json-common/1.8.2/json-common-1.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.92.Final/netty-codec-http2-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.92.Final/netty-resolver-dns-native-macos-4.1.92.Final-osx-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.92.Final/netty-resolver-dns-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.92.Final/netty-handler-proxy-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/discord4j-core/3.2.4/discord4j-core-3.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/club/minnced/opus-java-api/1.1.1/opus-java-api-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/club/minnced/opus-java-natives/1.1.1/opus-java-natives-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/projectreactor/addons/reactor-extra/3.5.1/reactor-extra-3.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/dv8tion/JDA/5.0.0-beta.9/JDA-5.0.0-beta.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/discord4j-voice/3.2.4/discord4j-voice-3.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/club/minnced/opus-java/1.1.1/opus-java-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.1.7/reactor-netty-core-1.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/discord4j/discord-json-api/1.6.14/discord-json-api-1.6.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.92.Final/netty-resolver-dns-classes-macos-4.1.92.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
