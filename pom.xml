@@ -13,8 +13,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>2.4</maven.compiler.source>
-    <maven.compiler.target>2.4</maven.compiler.target>
+    <maven.compiler.source>3.1.0</maven.compiler.source>
+    <maven.compiler.target>3.1.0</maven.compiler.target>
   </properties>
 
   <dependencyManagement>
@@ -109,10 +109,10 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.4</version>
+        <version>3.1.0</version>
         <configuration>
-          <source>2.4</source>
-          <target>2.4</target>
+          <source>3.1.0</source>
+          <target>3.1.0</target>
         </configuration>
       </plugin>
       <plugin>
