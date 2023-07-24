@@ -16,7 +16,7 @@
     <maven.compiler.source>3.0</maven.compiler.source>
     <maven.compiler.target>3.0</maven.compiler.target>
   </properties>
-
+<!--TODO: try removing some sections-->
   <dependencyManagement>
     <dependencies>
       <dependency>
