@@ -28,7 +28,6 @@ public class ValAPI extends ListenerAdapter {
 
 
         // make sure player was found
-
         if(con.getResponseCode()==502){
             List<String> error = Arrays.asList("Bad gateway 502");
             matches.put(0, new ArrayList<>(error));
@@ -129,22 +128,6 @@ public class ValAPI extends ListenerAdapter {
         arr.add(rounds_lost);
         arr.add(match_result);
 
-
-
-//            List<? extends Serializable> arr = Arrays.asList(name,
-//                    tag,
-//                    map,
-//                    mode,
-//                    team,
-//                    level,
-//                    agent_name,
-//                    score,
-//                    kills,
-//                    deaths,
-//                    assists,
-//                    rounds_won,
-//                    rounds_lost,
-//                    match_result);
             matches.put(match_number++, arr);
         }
         return matches;
