@@ -19,7 +19,6 @@ import java.util.ArrayList;
 public class ValAPI extends ListenerAdapter {
     static HashMap<Integer, ArrayList<String>> getMatchHistory(String name, String tag) throws LoginException, IOException {
         HashMap<Integer, ArrayList<String>> matches = new HashMap<Integer, ArrayList<String>>();
-
         // HTTP Request
         String nameNoSpace = name.replaceAll("\\s", "");
         URL url = new URL("https://api.henrikdev.xyz/valorant/v3/matches/na/" + nameNoSpace + "/"+tag);

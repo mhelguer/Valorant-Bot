@@ -10,13 +10,12 @@ import discord4j.core.object.command.ApplicationCommandInteractionOptionValue;
 import discord4j.core.object.command.ApplicationCommandOption;
 import discord4j.core.object.entity.Message;
 import discord4j.core.object.entity.channel.MessageChannel;
+import discord4j.discordjson.json.ApplicationCommandData;
 import discord4j.discordjson.json.ApplicationCommandOptionData;
 import discord4j.discordjson.json.ApplicationCommandRequest;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.example.ValAPI;
 import reactor.core.publisher.Mono;
-import reactor.util.Logger;
-import reactor.util.Loggers;
 import javax.security.auth.login.LoginException;
 import java.io.IOException;
 import java.util.*;
@@ -25,33 +24,10 @@ public class DiscordBot extends ValAPI {
         Dotenv dotenv = Dotenv.load();
         String bot_id = dotenv.get("BOT_ID").replaceAll("\"", "");
         bot_id=bot_id.replaceAll(" ", "");
+
         DiscordClient client = DiscordClientBuilder.create(bot_id).build();
         GatewayDiscordClient gateway = client.login().block();
         long applicationId = gateway.getRestClient().getApplicationId().block();
-        Logger log = Loggers.getLogger(DiscordBot.class);
-
-        // make bot reply "pong" when messaged "ping"
-        gateway.on(MessageCreateEvent.class).subscribe(event -> {
-            Message message = event.getMessage();
-            if ("ping".equals(message.getContent())) {
-                MessageChannel channel = message.getChannel().block();
-                assert channel != null;
-                channel.createMessage("Pong!").block();
-            }
-
-        });
-
-        // random number command
-        ApplicationCommandRequest randomCommand = ApplicationCommandRequest.builder()
-                .name("random")
-                .description("Send a random number")
-                .addOption(ApplicationCommandOptionData.builder()
-                        .name("digits")
-                        .description("Number of digits (1-20)")
-                        .type(ApplicationCommandOption.Type.INTEGER.getValue())
-                        .required(false).build())
-                .build();
-        gateway.getRestClient().getApplicationService().createGlobalApplicationCommand(applicationId, randomCommand).subscribe();
 
         // history command
         ApplicationCommandRequest historyCommand = ApplicationCommandRequest.builder()
@@ -72,17 +48,16 @@ public class DiscordBot extends ValAPI {
         gateway.getRestClient().getApplicationService().createGlobalApplicationCommand(applicationId, historyCommand).subscribe();
 
 
-//        //DELETING COMMANDS
-//        // get commands from discord as map
+        //DELETING COMMANDS
+        // get commands from discord as map
 //        Map<String, ApplicationCommandData> discordCommands = gateway.getRestClient()
 //                        .getApplicationService()
-//                                .getGuildApplicationCommands(applicationId, guildId)
+//                                .getGlobalApplicationCommands(applicationId)
 //                                        .collectMap(ApplicationCommandData::name)
 //                                                .block();
 //        long commandId = Long.parseLong(discordCommands.get("history").id().asString());
-
-        //delete it
-        //gateway.getRestClient().getApplicationService().deleteGuildApplicationCommand(applicationId, guildId, commandId).subscribe();
+//
+//        gateway.getRestClient().getApplicationService().deleteGlobalApplicationCommand(applicationId, commandId).subscribe();
 
         gateway.on(ChatInputInteractionEvent.class, event-> {
             if (event.getCommandName().equals("history")) {
