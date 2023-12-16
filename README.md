@@ -1,6 +1,6 @@
 # About
 This Discord Bot uses Java, discord4j, and Dotenv to search for and display the match data for the entered user's previous 5 Valorant matches.
-The API used is [henrikdev's valorant api](https://docs.henrikdev.xyz/valorant.html).
+The API used is [henrikdev's valorant api]([https://docs.henrikdev.xyz/valorant.html](https://github.com/Henrik-3/unofficial-valorant-api)).
 
 # Getting Started
 You will need to first put the bot's ID into the .env file located at the root of the project, and use an invite link to put the bot in
